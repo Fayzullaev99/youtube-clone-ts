@@ -119,7 +119,7 @@ function Sidebar() {
   ];
 
   return (
-    <div className="w-2/12 bg-[#212121] pr-5 overflow-auto pb-8 sidebar">
+    <div className="w-2/8 bg-[#212121] pr-5 overflow-auto pb-8 sidebar">
       <ul className="flex flex-col border-b-2 border-gray-700">
         {mainLinks.map(({ icon, name }) => {
           return (
